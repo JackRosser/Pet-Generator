@@ -20,4 +20,14 @@ main section form input::-moz-placeholder {
 main section form input::placeholder {
   font-style: italic;
   color: lightgray !important;
+}
+main aside .doggo {
+  background-image: url("https://placedog.net/500");
+  background-position: center center;
+  background-size: cover;
+}
+main .gatto {
+  background-image: url("https://placecat.net/500");
+  background-position: center center;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */

@@ -7,4 +7,17 @@ main {
       }
     }
   }
+  aside {
+    .doggo {
+      background-image: url("https://placedog.net/500");
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+
+  .gatto {
+    background-image: url("https://placecat.net/500");
+    background-position: center center;
+    background-size: cover;
+  }
 }
