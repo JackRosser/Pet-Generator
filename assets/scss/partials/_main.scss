@@ -1,0 +1,10 @@
+main {
+  section {
+    form {
+      input::placeholder {
+        font-style: italic;
+        color: lightgray !important;
+      }
+    }
+  }
+}

@@ -10,4 +10,14 @@
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+main section form input::-moz-placeholder {
+  font-style: italic;
+  color: lightgray !important;
+}
+
+main section form input::placeholder {
+  font-style: italic;
+  color: lightgray !important;
 }/*# sourceMappingURL=style.css.map */

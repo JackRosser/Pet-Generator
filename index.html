@@ -8,15 +8,70 @@
     <!-- BootStrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <!-- BootStrap CSS -->
-    <!-- <link rel="stylesheet" href="./assets/bootstrap_scss/custom-bootstrap.css" />-->
+    <link rel="stylesheet" href="./assets/bootstrap_scss/custom-bootstrap.css" />
     <!-- Style CSS -->
-    <!-- <link rel="stylesheet" href="./assets/scss/style.css"> -->
-    <title>JACK SNIPPET</title>
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+    <title>Pet Generator</title>
   </head>
-  <body>
+  <body style="background-color: lightcoral">
     <header></header>
 
-    <main></main>
+    <main>
+      <section class="container mt-md-5">
+        <div class="row justify-content-center">
+          <form class="col col12 col-md-6 bg-primary shadow-md-sm py-4 px-5 rounded-bottom-5">
+            <div class="mb-3">
+              <label for="pet-name" class="form-label text-white">Pet Name</label>
+              <input type="text" class="form-control placepersonal" id="pet-name" aria-describedby="emailHelp" placeholder="Insert pet's name here" />
+            </div>
+            <div class="mb-3">
+              <label for="owner-name" class="form-label text-white">Owner Name</label>
+              <input type="text" class="form-control placepersonal" id="owner-name" aria-describedby="emailHelp" placeholder="Insert owner's name here" />
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="mb-3">
+                <label for="species" class="form-label text-white">Specie</label>
+                <div class="dropdown">
+                  <button
+                    id="species"
+                    class="btn btn-white text-white border border-2 dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Specie
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Cane</a></li>
+                    <li><a class="dropdown-item" href="#">Gatto</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="species" class="form-label text-white">Breed</label>
+                <div class="dropdown">
+                  <button
+                    id="species"
+                    class="btn btn-white text-white border border-2 dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select breed
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Cane</a></li>
+                    <li><a class="dropdown-item" href="#">Gatto</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-danger mt-4">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
     <script src="./scripts/script.js" defer></script>
